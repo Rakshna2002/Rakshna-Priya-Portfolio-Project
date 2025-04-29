@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">B Rakshna Priya</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li> 
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">B Rakshna Priya</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Profile Pic" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">B Rakshna Priya</h1>
+            <p class="section__text__p2">I'm a JAVA Programmer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/B-Rakshna-Priya-Resume.pdf')"> Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
+            </div>
+            <div id = "socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="window.open('https://www.linkedin.com/in/rakshna-priya-brp/', '_blank');"/>
+                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="window.open('https://github.com/Rakshna2002', '_blank');"/> 
+                <img src="./assets/leetcode-icon.png" alt="My Leetcode Profile" class="icon" onclick="window.open('https://leetcode.com/u/znjunJ0szX/', '_blank');"/> 
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About me </p>
+            <div class="section-container">
+                <div class="section__pic2-container">
+                    <img src="./assets/about-me-pic.jpg" alt="Profile pic" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education Icon" class="icon" />
+                            <h5>Education</h5>
+                            <p class="section__text__p3"><br />B.Tech Computer Science and Business Systems <br />(Honors - Business Analytics)</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Industry-Relevant Coursework Icon" class="icon" />
+                            <h5> Industry-Relevant Coursework</h5>
+                            <ul class="custom-list">
+                                <li>Web Development</li>
+                                <li>Database Management Systems</li>
+                                <li>Machine Learning & AI</li>
+                                <li>Data Visualization & Business Intelligence</li>
+                            </ul>                            
+                        </div>
+                        
+                    </div>
+                    <div class="text-container">
+                        <p class="section__text__p3 here-text">I am a passionate programmer who loves to code and solve problems. I am a quick learner and a team player. I am always eager to learn new technologies and improve my skills. I am a hardworking and dedicated person who is always ready to take up new challenges.</p>
+                    </div>
+                </div>
+            </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">What I Bring to the Table</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h1 class="skills-sub-title">Programming <br />Languages</h1>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <h3> </h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" style="margin-left: 5px;" />
+                            <div>
+                                <h3>Java</h3>
+                                <p class="section__text__p3">Experienced<br />(DSA & OOPs concepts)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>C</h3>
+                                <p class="section__text__p3">Intermediate<br />(DS concept)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p class="section__text__p3">Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Web and Database Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <h3> </h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p class="section__text__p3">Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p class="section__text__p3">Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>Javascript</h3>
+                                <p class="section__text__p3">Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>MySQL</h3>
+                                <p class="section__text__p3">Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Development Tools & Platforms</h2>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <h3> </h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>Machine <br />Learning</h3>
+                                <p class="section__text__p3">Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>Power BI</h3>
+                                <p class="section__text__p3">Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>Figma</h3>
+                                <p class="section__text__p3">Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p class="section__text__p3">Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class=" details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/TEXT TO IMAGE GENERATOR.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Image <br> Generator</h2>
+                    <p style="text-align: justify;">A generative AI project that transforms text prompts into images using Stable Diffusion and Hugging Face’s diffusers library.</p>
+                    <p><br></p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Rakshna2002/Image-Generator', '_blank');">View Project</button>
+                    </div>
+                </div>
+                <div class=" details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/java_mp.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Java <br> Mini Projects</h2>
+                    <p style="text-align: justify;">Developed foundational Java projects to demonstrate proficiency in OOP, algorithmic problem-solving, and application logic structuring.</p>
+                            
+                    <p><br></p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Rakshna2002/JAVA-PROJECTS-CONDENSED', '_blank');">View Project</button>
+                    </div>
+                </div>
+                <div class=" details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/Churn_Proj.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Churn Analysis and Prediction</h2>
+                    <p style="text-align: justify;">Built a customer churn analysis prediction system using SQL, Power BI, and Random Forest to support data-driven retention strategies.</p>
+                    <p><br></p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Rakshna2002/Churn-Analysis-and-Prediction-Report', '_blank');">View Project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:rakshna.183@gmail.com" style="color: black;" target="_blank">rakshna.183@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/rakshna-priya-brp/" style="color: black;" target="_blank">LinkedIn</a></p>
+            </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Rakshna Priya. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
