@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/90990252-debd-486b-a833-c13351c675bc)# Portfolio Website
-
 This project is my personal portfolio website, designed to showcase my skills, projects, and achievements. The website is fully responsive and highlights my journey, from academic milestones to hands-on projects.
 
 The website includes sections such as an introduction, skills, projects, and contact information. It also provides an easy way for potential employers or collaborators to download my resume and reach out via email or social media.
