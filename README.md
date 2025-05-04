@@ -1,4 +1,4 @@
-# Portfolio Website
+![image](https://github.com/user-attachments/assets/90990252-debd-486b-a833-c13351c675bc)# Portfolio Website
 
 This project is my personal portfolio website, designed to showcase my skills, projects, and achievements. The website is fully responsive and highlights my journey, from academic milestones to hands-on projects.
 
@@ -65,8 +65,12 @@ The portfolio website is hosted online. You can view it at the following link:
 
 Desktop view of the website:
 
-![Desktop](https://github.com/user-attachments/assets/5e8496a4-3819-4337-a3ed-0d2a49e17786)
+![Desktop view](https://github.com/user-attachments/assets/cf0a42c8-7389-4f97-9964-8bb3b0b7f23f)
+
+
 
 Mobile view of the website:
 
-![Mobile view](https://github.com/user-attachments/assets/305e16b9-1890-4500-9aa7-1c3c202dd48e)
+![Mobile view](https://github.com/user-attachments/assets/4476e840-818e-44bf-b876-4eaa886cceab)
+
+
