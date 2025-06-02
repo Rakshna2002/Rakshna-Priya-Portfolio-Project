@@ -159,6 +159,10 @@ html, body {
         font-size: 1rem;
         margin-left: 0px;
     }
+    .section__text__p4{
+        font-size: 0.80rem;
+        margin-top:-5px;
+    }
 
     .title {
         font-size: 2rem;
