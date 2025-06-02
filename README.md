@@ -50,7 +50,7 @@ The website includes sections such as an introduction, skills, projects, and con
 
 The portfolio website is hosted online. You can view it at the following link:
 
-[**Click here to view**](https://rakshna2002.github.io/Personal-Portfolio-Project/)
+[**Click here to view**](https://rakshna2002.github.io/Rakshna-Priya-Portfolio-Project/)
 
 ---
 
