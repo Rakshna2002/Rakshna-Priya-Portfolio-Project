@@ -65,7 +65,8 @@ The portfolio website is hosted online. You can view it at the following link:
 
 Desktop view of the website:
 
-![Desktop view](https://github.com/user-attachments/assets/b196e30c-7fe0-407c-9b5e-999bf0c4ebe3)
+![Desktop view](https://github.com/user-attachments/assets/1a475b49-1bca-428d-a71e-5e7487a9feab)
+
 
 
 
